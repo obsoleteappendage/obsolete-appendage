@@ -1,0 +1,19 @@
+baseURL = "https://obsoleteappendage.com/"
+languageCode = "en-us"
+title = "Obsolete Appendage"
+theme = "shibui"
+
+[params]
+  [params.author]
+    name = "Nick"
+    email = "your-email@example.com"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
